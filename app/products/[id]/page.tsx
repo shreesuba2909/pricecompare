@@ -83,7 +83,7 @@ export default async function pageDetails({ params: { id } }: Props) {
           </div>
 
           {/* ✅ Add the "Price Comparer" Button Here */}
-          <Link href="http://localhost:5002" legacyBehavior>
+          <Link href="http://localhost:5003" legacyBehavior>
             <a target="_blank" rel="noopener noreferrer">
               <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
                 Price Comparer
